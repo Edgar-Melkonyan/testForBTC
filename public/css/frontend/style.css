@@ -1,0 +1,92 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+button:focus {
+    outline: none;
+}
+h1{
+    font-size: 25px;
+}
+/*Carousel styling*/
+.owl-carousel .item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.owl-carousel .image-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.image-box .btn-custom{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: #8dbcef;
+    color: #000;
+    padding: 2px 10px;
+}
+.owl-carousel .item h1{
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #8dbcef;
+}
+.owl-carousel .owl-stage-outer{
+    z-index: 777;
+}
+.owl-carousel .owl-item img{
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.owl-nav{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+}
+.owl-theme .owl-nav{
+    margin-top: 0;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -30px;
+    margin: 0!important;
+    z-index: 777;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -30px;
+    margin: 0!important;
+    z-index: 777;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot{
+    font-size: 25px;
+    line-height: 40px;
+    color: #8dbcef;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #000;
+    text-decoration: none;
+}
+/*Main content*/
+.main-content{
+    margin: 30px 0;
+}
+.main-image-container img{
+    width: 100%;
+    height: 300px;
+}
+.main-description-container h1{
+    margin: 10px 0 5px 0;
+}

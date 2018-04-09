@@ -1,0 +1,27 @@
+.check-box-container{
+	position: relative;
+    padding: 10px;
+    height: 45px;
+    width: 100%;
+    line-height: 25px;
+    background: #f5f8fa;
+    border: 1px solid #d3e0e9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.check-box-container span{
+	display: block;
+    float: left;
+    height: 100%;
+}
+.check-box-container input{
+	display: block;
+    float: right;
+    height: 100%;
+    margin-top: 0;
+}
+.check-box-main-container{
+	height: 300px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
